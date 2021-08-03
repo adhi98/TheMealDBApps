@@ -3,7 +3,7 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 50;
+	objectVersion = 51;
 	objects = {
 
 /* Begin PBXBuildFile section */
@@ -13,6 +13,16 @@
 		04FA49A626B7E1E20087E3CE /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 04FA49A426B7E1E20087E3CE /* Main.storyboard */; };
 		04FA49A826B7E1E40087E3CE /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 04FA49A726B7E1E40087E3CE /* Assets.xcassets */; };
 		04FA49AB26B7E1E40087E3CE /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 04FA49A926B7E1E40087E3CE /* LaunchScreen.storyboard */; };
+		04FA49BB26B7EC970087E3CE /* MealModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04FA49BA26B7EC970087E3CE /* MealModel.swift */; };
+		04FA49C726B800800087E3CE /* MealViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04FA49C626B800800087E3CE /* MealViewModel.swift */; };
+		04FA49CE26B82F770087E3CE /* MealsTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04FA49CC26B82F770087E3CE /* MealsTableViewCell.swift */; };
+		04FA49CF26B82F770087E3CE /* MealsTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 04FA49CD26B82F770087E3CE /* MealsTableViewCell.xib */; };
+		04FA49D226B855AF0087E3CE /* DetailMealData.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04FA49D126B855AF0087E3CE /* DetailMealData.swift */; };
+		04FA49D526B8AB540087E3CE /* DetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04FA49D426B8AB540087E3CE /* DetailViewController.swift */; };
+		04FA49E126B8C89B0087E3CE /* DetailMealViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04FA49E026B8C89B0087E3CE /* DetailMealViewModel.swift */; };
+		04FA49E726B8D9C60087E3CE /* CustomImage.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04FA49E626B8D9C60087E3CE /* CustomImage.swift */; };
+		04FA49EA26B8DA8D0087E3CE /* CustomView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04FA49E926B8DA8D0087E3CE /* CustomView.swift */; };
+		7957F5092F9BEDCD783AFFFD /* Pods_TheMealDB.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4055C93DCB19B2D88A303635 /* Pods_TheMealDB.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +34,18 @@
 		04FA49A726B7E1E40087E3CE /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		04FA49AA26B7E1E40087E3CE /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		04FA49AC26B7E1E40087E3CE /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		04FA49BA26B7EC970087E3CE /* MealModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MealModel.swift; sourceTree = "<group>"; };
+		04FA49C626B800800087E3CE /* MealViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MealViewModel.swift; sourceTree = "<group>"; };
+		04FA49CC26B82F770087E3CE /* MealsTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MealsTableViewCell.swift; sourceTree = "<group>"; };
+		04FA49CD26B82F770087E3CE /* MealsTableViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = MealsTableViewCell.xib; sourceTree = "<group>"; };
+		04FA49D126B855AF0087E3CE /* DetailMealData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailMealData.swift; sourceTree = "<group>"; };
+		04FA49D426B8AB540087E3CE /* DetailViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailViewController.swift; sourceTree = "<group>"; };
+		04FA49E026B8C89B0087E3CE /* DetailMealViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailMealViewModel.swift; sourceTree = "<group>"; };
+		04FA49E626B8D9C60087E3CE /* CustomImage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomImage.swift; sourceTree = "<group>"; };
+		04FA49E926B8DA8D0087E3CE /* CustomView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomView.swift; sourceTree = "<group>"; };
+		4055C93DCB19B2D88A303635 /* Pods_TheMealDB.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_TheMealDB.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		6D81741F7FFF850E9C5CD8FA /* Pods-TheMealDB.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TheMealDB.debug.xcconfig"; path = "Target Support Files/Pods-TheMealDB/Pods-TheMealDB.debug.xcconfig"; sourceTree = "<group>"; };
+		EAF46323595B13EF7D9F1A65 /* Pods-TheMealDB.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TheMealDB.release.xcconfig"; path = "Target Support Files/Pods-TheMealDB/Pods-TheMealDB.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -31,6 +53,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				7957F5092F9BEDCD783AFFFD /* Pods_TheMealDB.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -42,6 +65,8 @@
 			children = (
 				04FA499D26B7E1E20087E3CE /* TheMealDB */,
 				04FA499C26B7E1E20087E3CE /* Products */,
+				5E466AC1099AB33FBF75892D /* Pods */,
+				6B2489887080A40EBB360D45 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -56,15 +81,73 @@
 		04FA499D26B7E1E20087E3CE /* TheMealDB */ = {
 			isa = PBXGroup;
 			children = (
+				04FA49E526B8D9990087E3CE /* Extention */,
 				04FA499E26B7E1E20087E3CE /* AppDelegate.swift */,
 				04FA49A026B7E1E20087E3CE /* SceneDelegate.swift */,
 				04FA49A226B7E1E20087E3CE /* ViewController.swift */,
-				04FA49A426B7E1E20087E3CE /* Main.storyboard */,
+				04FA49D426B8AB540087E3CE /* DetailViewController.swift */,
+				04FA49C426B7FDCF0087E3CE /* View */,
 				04FA49A726B7E1E40087E3CE /* Assets.xcassets */,
 				04FA49A926B7E1E40087E3CE /* LaunchScreen.storyboard */,
 				04FA49AC26B7E1E40087E3CE /* Info.plist */,
+				04FA49BD26B7ECD70087E3CE /* Model */,
+				04FA49C926B800A80087E3CE /* ViewModel */,
 			);
 			path = TheMealDB;
+			sourceTree = "<group>";
+		};
+		04FA49BD26B7ECD70087E3CE /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				04FA49BA26B7EC970087E3CE /* MealModel.swift */,
+				04FA49D126B855AF0087E3CE /* DetailMealData.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		04FA49C426B7FDCF0087E3CE /* View */ = {
+			isa = PBXGroup;
+			children = (
+				04FA49A426B7E1E20087E3CE /* Main.storyboard */,
+				04FA49CC26B82F770087E3CE /* MealsTableViewCell.swift */,
+				04FA49CD26B82F770087E3CE /* MealsTableViewCell.xib */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		04FA49C926B800A80087E3CE /* ViewModel */ = {
+			isa = PBXGroup;
+			children = (
+				04FA49C626B800800087E3CE /* MealViewModel.swift */,
+				04FA49E026B8C89B0087E3CE /* DetailMealViewModel.swift */,
+			);
+			path = ViewModel;
+			sourceTree = "<group>";
+		};
+		04FA49E526B8D9990087E3CE /* Extention */ = {
+			isa = PBXGroup;
+			children = (
+				04FA49E626B8D9C60087E3CE /* CustomImage.swift */,
+				04FA49E926B8DA8D0087E3CE /* CustomView.swift */,
+			);
+			path = Extention;
+			sourceTree = "<group>";
+		};
+		5E466AC1099AB33FBF75892D /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				6D81741F7FFF850E9C5CD8FA /* Pods-TheMealDB.debug.xcconfig */,
+				EAF46323595B13EF7D9F1A65 /* Pods-TheMealDB.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		6B2489887080A40EBB360D45 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				4055C93DCB19B2D88A303635 /* Pods_TheMealDB.framework */,
+			);
+			name = Frameworks;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -74,9 +157,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 04FA49AF26B7E1E40087E3CE /* Build configuration list for PBXNativeTarget "TheMealDB" */;
 			buildPhases = (
+				7C26C5E975C3F3952D028D86 /* [CP] Check Pods Manifest.lock */,
 				04FA499726B7E1E20087E3CE /* Sources */,
 				04FA499826B7E1E20087E3CE /* Frameworks */,
 				04FA499926B7E1E20087E3CE /* Resources */,
+				E6628B981278419A0BC7105B /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -124,6 +209,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				04FA49CF26B82F770087E3CE /* MealsTableViewCell.xib in Resources */,
 				04FA49AB26B7E1E40087E3CE /* LaunchScreen.storyboard in Resources */,
 				04FA49A826B7E1E40087E3CE /* Assets.xcassets in Resources */,
 				04FA49A626B7E1E20087E3CE /* Main.storyboard in Resources */,
@@ -132,14 +218,64 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		7C26C5E975C3F3952D028D86 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-TheMealDB-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		E6628B981278419A0BC7105B /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-TheMealDB/Pods-TheMealDB-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-TheMealDB/Pods-TheMealDB-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-TheMealDB/Pods-TheMealDB-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		04FA499726B7E1E20087E3CE /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				04FA49BB26B7EC970087E3CE /* MealModel.swift in Sources */,
 				04FA49A326B7E1E20087E3CE /* ViewController.swift in Sources */,
+				04FA49D226B855AF0087E3CE /* DetailMealData.swift in Sources */,
+				04FA49CE26B82F770087E3CE /* MealsTableViewCell.swift in Sources */,
+				04FA49E126B8C89B0087E3CE /* DetailMealViewModel.swift in Sources */,
 				04FA499F26B7E1E20087E3CE /* AppDelegate.swift in Sources */,
+				04FA49EA26B8DA8D0087E3CE /* CustomView.swift in Sources */,
+				04FA49E726B8D9C60087E3CE /* CustomImage.swift in Sources */,
 				04FA49A126B7E1E20087E3CE /* SceneDelegate.swift in Sources */,
+				04FA49C726B800800087E3CE /* MealViewModel.swift in Sources */,
+				04FA49D526B8AB540087E3CE /* DetailViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -283,6 +419,7 @@
 		};
 		04FA49B026B7E1E40087E3CE /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 6D81741F7FFF850E9C5CD8FA /* Pods-TheMealDB.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
@@ -301,6 +438,7 @@
 		};
 		04FA49B126B7E1E40087E3CE /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = EAF46323595B13EF7D9F1A65 /* Pods-TheMealDB.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
